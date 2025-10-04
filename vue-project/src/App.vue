@@ -1,8 +1,9 @@
 <script setup>
 import { ref } from 'vue'
 import Footer from './Footer.vue';
-import Navbar from './navbar.vue';
+import Navbar from './Navbar.vue';
 import Lista from './Lista.vue';
+import Boton from './Boton.vue';
 
 const nombre = ref('Polux')
 const libros = ref(4)
@@ -14,6 +15,7 @@ function nombrelibros () {
 
 <template>
 
+  
   <Navbar />
 
   <h1>Vue Project 1</h1>
@@ -24,6 +26,8 @@ function nombrelibros () {
 
   <Lista />
 
+
+  <Boton />
   <Footer />
   
 </template>
