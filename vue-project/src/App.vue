@@ -4,6 +4,7 @@ import Footer from './Footer.vue';
 import Navbar from './Navbar.vue';
 import Lista from './Lista.vue';
 import Boton from './Boton.vue';
+import Booleano from './Booleano.vue';
 
 const nombre = ref('Polux')
 const libros = ref(4)
@@ -17,6 +18,7 @@ function nombrelibros () {
 
   
   <Navbar />
+  <Booleano />
 
   <h1>Vue Project 1</h1>
   <p>{{ nombrelibros() }}</p>
